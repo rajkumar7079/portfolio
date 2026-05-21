@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Kumar | Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background-animation">
+        <div class="grid-bg"></div>
+        <div class="floating-orbs"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <!-- <span class="terminal-symbol">&lt;/&gt;</span> -->
+                <img src="image/new-logo.png" alt="Raj Kumar Logo" class="logo-image">
+                <span class="brand-name">RAJ</span>
+            </div>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active" data-section="home">HOME</a></li>
+                    <li><a href="#about" class="nav-link" data-section="about">ABOUT</a></li>
+                    <li><a href="#experience" class="nav-link" data-section="experience">EXPERIENCE</a></li>
+                    <li><a href="#projects" class="nav-link" data-section="projects">PROJECTS</a></li>
+                    <li><a href="#contact" class="nav-link" data-section="contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section hero-section active">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="title-prefix">Hello, I'm</span>
+                        <span class="typed-text">RajKumar</span>
+                        <img src="image/rajphoto.png" alt="Raj Kumar Photo" class="logo-photo">
+                        <!-- <span class="cursor">|</span> -->
+                    </h1>
+                    <p class="hero-subtitle">Frontend Developer</p>
+                    <p class="hero-description">
+                        Crafting beautiful and functional web experiences with modern technologies. 
+                        Passionate about clean code and innovative solutions.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="scrollToSection('contact')">Get In Touch</button>
+                        <button class="btn btn-secondary" onclick="downloadResume()">Download Resume</button>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-icon" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/raj-kumar-kushwaha-8a893b313/" class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/rajkumar.kushwaha.official/" class="social-icon" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <!-- <a href="mailto:rajkumarmuzbih@gmail.com" class="social-icon" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="scroll-indicator">
+                    <span>Scroll to explore</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-intro">
+                            I'm a passionate developer with a keen interest in building scalable and user-friendly applications. 
+                            With expertise in modern web technologies, I transform ideas into elegant solutions.
+                        </p>
+                        <div class="skills-container">
+                            <div class="skill-category">
+                                <h3>Frontend</h3>
+                                <div class="skill-list">
+                                    <span class="skill-tag">HTML5</span>
+                                    <span class="skill-tag">CSS3</span>
+                                    <span class="skill-tag">JavaScript</span>
+                                    <span class="skill-tag">React</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h3>Backend Learning Period</h3>
+                                <div class="skill-list">
+                                    <span class="skill-tag">Node.js</span>
+                                    <span class="skill-tag">Express</span>
+                                    <span class="skill-tag">MongoDB</span>
+                                    <span class="skill-tag">REST APIs</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h3>Tools</h3>
+                                <div class="skill-list">
+                                    <span class="skill-tag">Git</span>
+                                    <span class="skill-tag">Docker</span>
+                                    <span class="skill-tag">Figma</span>
+                                    <span class="skill-tag">VS Code</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section experience-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Experience</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="experience-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Full-stack Web Developer</h3>
+                            <p class="company">Tech Innovations Inc.</p>
+                            <p class="duration">2022 - Present</p>
+                            <p class="description">
+                                Developed and maintained multiple full-stack applications. 
+                                Collaborated with designers and product managers to deliver pixel-perfect implementations.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Junior Web Developer</h3>
+                            <p class="company">Digital Solutions Ltd.</p>
+                            <p class="duration">2025 June - 2026 January</p>
+                            <p class="description">
+                                Started my career building responsive websites and fixing bugs. 
+                                Learned best practices and modern development workflows.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Training Period</h3>
+                            <p class="company">StartUp Ventures</p>
+                            <p class="duration">2024 June - 2025 Aprail</p>
+                            <p class="description">
+                                Frontend Development, where I am learning to build responsive and modern websites while improving my coding and problem-solving skills. Gaining hands-on experience with HTML, CSS, JavaScript, and modern development workflows through real-world practice and projects. Also learning best practices for creating clean, user-friendly, and interactive web applications.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>E-Commerce Platform</h3>
+                            <p>Full-featured e-commerce solution with payment integration, built with React and Node.js</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Task Management App</h3>
+                            <p>Collaborative task management application with real-time updates and notifications</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Firebase</span>
+                                <span>Tailwind</span>
+                            </div>
+                            <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3>Analytics Dashboard</h3>
+                            <p>Real-time analytics dashboard with interactive charts and data visualization</p>
+                            <div class="project-tech">
+                                <span>Vue.js</span>
+                                <span>D3.js</span>
+                                <span>APIs</span>
+                            </div>
+                            <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Email</h4>
+                                <p>rajkumarmuzbih@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Phone</h4>
+                                <p>+91 7079621635</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-text">
+                                <h4>Location</h4>
+                                <p>Chandigarh, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required class="form-input">
+                            <div class="form-border"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required class="form-input">
+                            <div class="form-border"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="6" required class="form-input"></textarea>
+                            <div class="form-border"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Raj Kumar. All rights reserved.</p>
+            <p>Designed & Built with <span class="heart">❤</span> by Raj</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
