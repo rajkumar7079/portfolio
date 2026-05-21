@@ -1,0 +1,9 @@
+{
+  "name": "raj-kumar-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for beginner web developer Raj Kumar.",
+  "private": true,
+  "scripts": {
+    "start": "npx serve ."
+  }
+}
